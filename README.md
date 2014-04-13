@@ -30,19 +30,17 @@ then hit
 
 ### Probe Object
 
-root-probe return an Object with following properties:
+The Probe is an extention of the Root Object provided by the **[root-finder](https://github.com/luscus/node-root-finder)** package
+
+
+root-probe adds following properties to the Root Object:
 
 * `status`: 'OK' if the probe was processed without problems, 'ERROR' otherwise
 * `timestamp`: the time at which the probe was generated
-* `name`: the name of the parent module
-* `directory`: the directory of the parent module
-* `version`: the parent module's version
+* `hostname`: the name of the host
+* `ip`: the ip address from the network adapter
+* `version`: the version of the package
 * `[version_hash]`: the parsed content of .git/HEAD
-* `[description]`: the parent module's description
-* `[keywords]`: the parent module's keywords
-* `[homepage]`: the parent module's homepage
-* `[repository_url]`: the parent module's repository_url
-* `[engines_node]`: the parent module's supported version of node
 * `dependencies`: the parent module's dependencies as array of objects formated as follows
 
 ### Dependecy Object

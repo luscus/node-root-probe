@@ -12,15 +12,15 @@
   "bugs" : "https://github.com/luscus/node-root-probe/issues",
   "main": "./lib/root-probe.js",
   "dependencies": {
-    "root-finder" : "0.1.x"
+    "root-finder" : "0.1.x",
+    "ip" : "0.3.x"
   },
   "devDependencies": {
     "grunt": "0.4.x",
     "grunt-contrib-jshint": "0.10.x",
     "load-grunt-tasks": "0.4.x"
   },
-  "optionalDependencies": {},
-  "licenses" : [
+   "licenses" : [
     { "type" : "GPL",
       "url" : "https://github.com/luscus/node-root-probe/blob/master/COPYING"
     }
