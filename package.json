@@ -2,7 +2,7 @@
   "author": "https://github.com/luscus/node-root-probe/graphs/contributors",
   "name": "root-probe",
   "description": "The 'root-probe' returns information (such as dependecies) about the first parent module in the path hierarchy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords" : ["root", "parent", "information", "configuration", "dependencies"],
   "repository": {
     "type": "git",
