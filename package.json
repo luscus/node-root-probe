@@ -3,26 +3,33 @@
   "name": "root-probe",
   "description": "The 'root-probe' returns information (such as dependecies) about the first parent module in the path hierarchy",
   "version": "0.1.2",
-  "keywords" : ["root", "parent", "information", "configuration", "dependencies"],
+  "keywords": [
+    "root",
+    "parent",
+    "information",
+    "configuration",
+    "dependencies"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/luscus/node-root-probe.git"
   },
-  "homepage" : "https://github.com/luscus/node-root-probe",
-  "bugs" : "https://github.com/luscus/node-root-probe/issues",
+  "homepage": "https://github.com/luscus/node-root-probe",
+  "bugs": "https://github.com/luscus/node-root-probe/issues",
   "main": "./lib/root-probe.js",
   "dependencies": {
-    "root-finder" : "0.1.x",
-    "ip" : "0.3.x"
+    "root-finder": "0.1.x",
+    "ip": "1.1.5"
   },
   "devDependencies": {
     "grunt": "0.4.x",
     "grunt-contrib-jshint": "0.10.x",
     "load-grunt-tasks": "0.4.x"
   },
-   "licenses" : [
-    { "type" : "GPL",
-      "url" : "https://github.com/luscus/node-root-probe/blob/master/COPYING"
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/luscus/node-root-probe/blob/master/COPYING"
     }
   ]
 }
